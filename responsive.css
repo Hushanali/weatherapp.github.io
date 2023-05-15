@@ -1,0 +1,259 @@
+/* responsive 1 */
+@media (min-width: 200px) and (max-width: 299px) {
+  body {
+    background-size: 342vh;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .cities-list {
+    display: flex;
+    margin-left: -47px;
+  }
+
+  .cities-list li {
+    font-size: 1.2rem;
+    padding: 0 10px;
+  }
+
+  .nav-bar {
+    position: relative;
+    top: 10px;
+    left: 40px;
+  }
+
+  .main {
+    top: 33%;
+    left: 35%;
+    width: 80%;
+  }
+
+  .weather-info {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 79%;
+    right: 38px;
+    width: 113%;
+  }
+
+  .weather-class {
+    margin: 6px;
+  }
+}
+
+/* responsive 2 */
+
+@media (min-width: 300px) and (max-width: 439px) {
+  .logo {
+    display: none;
+  }
+
+  .cities-list {
+    display: flex;
+    position: absolute;
+    top: 53px;
+    margin-left: -47px;
+  }
+
+  .cities-list li {
+    font-size: 1.2rem;
+    padding: 0 10px;
+  }
+
+  .main {
+    top: 18%;
+    left: 20%;
+    width: 80%;
+  }
+
+  .weather-info {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 55%;
+    right: 38px;
+    width: 96%;
+  }
+
+  .weather-class {
+    margin: 6px;
+  }
+}
+
+/* responsive 3 */
+
+@media (min-width: 440px) and (max-width: 699px) {
+  .search-bar-container {
+    width: 220px;
+    margin-left: 40px;
+  }
+
+  #Temperature {
+    font-size: 5rem;
+  }
+
+  .main {
+    right: 0;
+  }
+
+  .weather-info {
+    left: 0;
+    flex-wrap: wrap;
+  }
+
+  .weather-class {
+    margin: 10px 0;
+  }
+
+  .weather-info {
+    flex-wrap: wrap;
+    left: 10%;
+    top: 80%;
+    width: 115%;
+  }
+
+  .weather-class {
+    margin: 10px 40px;
+  }
+
+  #weatherEl {
+    font-size: 2rem;
+  }
+
+  #feelsEl {
+    font-size: 1.5rem;
+  }
+
+  #feelsTemp {
+    font-size: 1rem;
+  }
+
+  #weatherType {
+    font-size: 1rem;
+  }
+
+  #humidityEl {
+    font-size: 1.5rem;
+  }
+
+  #humidityTemp {
+    font-size: 1rem;
+  }
+
+  #mintempEl {
+    font-size: 1.5rem;
+  }
+
+  #min-temp {
+    font-size: 1rem;
+  }
+
+  #maxtempEl {
+    font-size: 1.5rem;
+  }
+
+  #max-temp {
+    font-size: 1rem;
+  }
+}
+
+/* responsive 4 */
+
+@media (min-width: 700px) and (max-width: 899px) {
+  body {
+    background-size: 325vh;
+  }
+
+  .nav-bar {
+    width: 145%;
+  }
+
+  .cities-list {
+    font-size: 2rem;
+  }
+
+  .main {
+    right: -140px;
+  }
+
+  #Date {
+    font-size: 2rem;
+  }
+
+  #Temperature {
+    font-size: 10rem;
+  }
+
+  #city {
+    font-size: 2rem;
+  }
+
+  .weather-info {
+    flex-wrap: wrap;
+    left: 10%;
+    top: 93%;
+    width: 115%;
+  }
+
+  .weather-class {
+    margin: 20px 30px;
+  }
+
+  #weatherEl {
+    font-size: 3rem;
+  }
+
+  #feelsEl {
+    font-size: 2.5rem;
+  }
+
+  #feelsTemp {
+    font-size: 2rem;
+  }
+
+  #weatherType {
+    font-size: 2rem;
+  }
+
+  #humidityEl {
+    font-size: 2.5rem;
+  }
+
+  #humidityTemp {
+    font-size: 2rem;
+  }
+
+  #mintempEl {
+    font-size: 2.5rem;
+  }
+
+  #min-temp {
+    font-size: 2rem;
+  }
+
+  #maxtempEl {
+    font-size: 2.5rem;
+  }
+
+  #max-temp {
+    font-size: 2rem;
+  }
+}
+
+/* responsive 5 */
+
+@media (min-width: 900px) and (max-width: 1060px) {
+  body {
+    background-size: 225vh;
+  }
+
+  .main {
+    top: 180px;
+  }
+
+  .weather-info {
+    bottom: 50px;
+    left: 15px;
+  }
+}

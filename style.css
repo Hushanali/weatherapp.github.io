@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: url(images/clouds.jpg) center no-repeat;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  overflow: hidden;
+  transition: all 0.4s ease-in;
+}
+
+/* navbar */
+
+.nav-bar {
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bars {
+  display: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  text-shadow: 0.1em 0.1em 0 hsl(204, 49%, 15%);
+  color: white;
+}
+
+/* search bar */
+
+.search-bar-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  margin: 26px 0;
+  width: 300px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 1.5s;
+}
+
+.search {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.searchinput {
+  position: absolute;
+  top: 12px;
+  left: 40px;
+  font-size: 15px;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  width: 82%;
+  transition: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.searchinput::placeholder {
+  color: white;
+}
+
+.active {
+  width: 40px;
+}
+
+.active .searchinput {
+  width: 0;
+}
+
+/* cities */
+
+.cities-list {
+  list-style: none;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 0.1em 0.1em 0 hsl(54, 20%, 43%);
+}
+
+.cities-list li {
+  cursor: pointer;
+  transition: 0.4s linear;
+  padding: 5px 0;
+}
+
+.cities-list li:active {
+  transform: scale(0.99);
+}
+
+#error {
+  position: absolute;
+  top: 30%;
+  left: 13%;
+  font-size: 3rem;
+  color: white;
+  transition: 0.4s ease-in;
+  transition-delay: 2s;
+  display: none;
+}
+
+/* MAIN */
+
+.main {
+  display: none;
+  position: absolute;
+  top: 150px;
+  right: 220px;
+  color: white;
+  transition: all 0.4s ease-in;
+}
+
+#Date {
+  font-size: 1.4rem;
+}
+
+#Temperature {
+  /* padding: 0; */
+  margin: 0;
+  font-size: 6rem;
+  text-shadow: 0.1em 0.1em 0 hsl(47, 8%, 55%);
+}
+
+#city {
+  font-size: 1.4rem;
+}
+
+/* footer */
+
+.weather-info {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  transition: all 0.4s ease-in;
+}
+
+.weather-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0px 20px;
+  padding: 0px 30px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 0.4s linear;
+}
+
+#weatherEl {
+  font-size: 1.6rem;
+  margin: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+#weatherType {
+  font-size: 1.3rem;
+}
+
+#feelsEl {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+#feelsTemp {
+  font-size: 1.3rem;
+}
+
+#humidityEl {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+#humidityTemp {
+  font-size: 1.3rem;
+}
+
+#mintempEl {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+#min-temp {
+  font-size: 1.3rem;
+}
+
+#maxtempEl {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+#max-temp {
+  font-size: 1.3rem;
+}

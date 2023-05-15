@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY WEATHER APP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav-bar">
+      <span class="bars"><i class="fa-solid fa-bars"></i></span>
+      <h1 class="logo">WEATHER APP</h1>
+      <div class="search-bar-container active">
+        <i class="fa-solid fa-magnifying-glass search"></i>
+        <input
+          type="text"
+          placeholder="Enter Your City"
+          id="searchinput"
+          class="searchinput"
+        />
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <ul class="cities-list">
+      <li id="mumbai">Mumbai</li>
+      <li id="Berlin">Berlin</li>
+      <li id="london">London</li>
+      <li id="NewYork">Newyork</li>
+      <li id="moscow">Moscow</li>
+    </ul>
+
+    <section>
+      <h1 id="error"></h1>
+    </section>
+
+    <main class="main">
+      <div class="temp-city">
+        <span id="Date"></span>
+
+        <h1 id="Temperature"></h1>
+        <div>
+          <div id="city"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="weather-info">
+      <div class="weather-class">
+        <h5 id="weatherEl"></h5>
+        <span id="weatherType"></span>
+      </div>
+      <div class="weather-class">
+        <h5 id="feelsEl"></h5>
+        <span id="feelsTemp"></span>
+      </div>
+      <div class="weather-class">
+        <h5 id="humidityEl"></h5>
+        <span id="humidityTemp"></span>
+      </div>
+
+      <div class="weather-class">
+        <h5 id="mintempEl"></h5>
+        <span id="min-temp"></span>
+      </div>
+      <div class="weather-class">
+        <h5 id="maxtempEl"></h5>
+        <span id="max-temp"></span>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/6db51588ef.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
